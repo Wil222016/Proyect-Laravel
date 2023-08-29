@@ -1,1 +1,1 @@
-# Proyect-Laravel
+# Project-Laravel
