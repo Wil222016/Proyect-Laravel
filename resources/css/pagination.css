@@ -1,0 +1,38 @@
+/* resources/css/pagination.css */
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 2px;
+  }
+  
+  .page-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #FFA800; /* Color del texto */
+    background-color: white; /* Color de fondo */
+    border: 1px solid #FFA800; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+  }
+  
+  .page-item.active .page-link {
+    color: white; /* Color del texto cuando está activo */
+    background-color: #FFA800; /* Color de fondo cuando está activo */
+    border-color: #FFA800; /* Borde cuando está activo */
+  }
+  
+  .page-link:hover {
+    color: white; /* Color del texto al pasar el mouse */
+    background-color: #FFA800; /* Color de fondo al pasar el mouse */
+    border-color: #FFA800; /* Borde al pasar el mouse */
+  }
+  
+  .page-link:focus {
+    outline: none; /* Eliminar el contorno al hacer clic */
+  }
+  
